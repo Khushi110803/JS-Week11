@@ -13,7 +13,7 @@ const request  = new Request(url);
 // STEP 6: Make a network request with the fetch() function, which returns a Response object
 const response = await fetch(request);
 // STEP 7: Capture the returned Response object and covert to a JSON object using json()
-const responseJson = await responseJson
+const responseJson = await responseJson.json();
 // STEP 8: Output the iScream JSON object to the console 
 console.log(responseJson);
 // STEP 9a: Invoke the populateHeader function here, then build it below
@@ -60,7 +60,7 @@ const topFlavors = jsonData.topFlavors;
         const ingredients = topFlavors[i].ingredients;
         for (let j  = 0; j  < array.length ; j ++) 
             {
-                console.log(ingredients);
+                console.log(ingredients[j]);
                 const listItem = document.createElement("li"); //<li></li>
                 listItem.textContent = ingredients[j];
                 list.appendChild(listItem);
