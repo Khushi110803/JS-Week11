@@ -13,7 +13,7 @@ const request  = new Request(url);
 // STEP 6: Make a network request with the fetch() function, which returns a Response object
 const response = await fetch(request);
 // STEP 7: Capture the returned Response object and covert to a JSON object using json()
-const responseJson = await responseJson.json();
+const responseJson = await response.json();
 // STEP 8: Output the iScream JSON object to the console 
 console.log(responseJson);
 // STEP 9a: Invoke the populateHeader function here, then build it below
@@ -30,7 +30,7 @@ function populateHeader(jsonData){
 const h1 = document.createElement("h1");
 const p = document.createElement("p");
 // Grab the company name from the JSON object and use it for the text node
-h1.textContent = jsonData.companyName();
+h1.textContent = jsonData.companyName;
 p.textContent = `${jsonData.headOffice} est. ${jsonData.established} - ${(jsonData.active) ? "Active" : "Inactive"}`;
 // Inject the complete H1 element into the DOM, inside the HEADER
 header.appendChild(h1);
