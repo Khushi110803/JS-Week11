@@ -41,7 +41,7 @@ function showTopFlavors(jsonData){
 // STEP 10c: Bind the JSON topFlavors object to a var
 const topFlavors = jsonData.topFlavors;
 // STEP 10d: Loop through the topFlavors object
-    for(let i=0;i< topFlavors.length();i++)
+    for(let i=0;i< topFlavors.length;i++)
     {
         console.log(topFlavors[i]);
         // STEP 10e: build HTML elements for the content: article, h2, image, p1, p2, list
@@ -58,7 +58,7 @@ const topFlavors = jsonData.topFlavors;
         image.setAttribute("src",topFlavors[i].type);
         // STEP 10g: Build a loop for the ingredients array in the JSON
         const ingredients = topFlavors[i].ingredients;
-        for (let j  = 0; j  < array.length ; j ++) 
+        for (let j  = 0; j  < ingredients.length ; j ++) 
             {
                 console.log(ingredients[j]);
                 const listItem = document.createElement("li"); //<li></li>
