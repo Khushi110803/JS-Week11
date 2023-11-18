@@ -1,45 +1,74 @@
 {
-  
-    "companyName" : "I-scream Company Inc.",
-    "headOffice" : "North Pole",
-    "established" : 1987,
-    "active" : true,
-    "topFlavors" : [
-     {
-     "name" : "chocolate Mint",
-     "calories" : 300,
-     "type" : "ice-cream",
-     "ingredients" : ["Chocolate Syrup",
-                      "Peppermint Sprinkle", 
-                      "Vanilla Base"],
-                      "image" : "https://khushi110803.github.io/JS-Week11/images/chocolate-mint.svg"
-    }, 
-    {
-     "name" : "chocolate Chip",
-     "calories" : 350,
-     "type" : "ice-cream",
-     "ingredients" : ["Chocolate Syrup",
-                      "Chocolate Sprinkle", 
-                      "Chocolate Base"],
-                      "image" : "https://khushi110803.github.io/JS-Week11/images/ice-cream-xtra1.svg"
-    },
-    {
-        "name" : "Strawberry Sprinkle",
-        "calories" : 360,
-        "type" : "ice-cream",
-        "ingredients" : ["Strawberry Syrup",
-                         "Strawberry Chunks", 
-                         "Vanilla Base"],
-                         "image" : "https://khushi110803.github.io/JS-Week11/images/strawberry-sprinkle.svg"
-    },
-    {
-        "name" : "guava Mango",
-        "calories" : 320,
-        "type" : "sorbet",
-        "ingredients" : ["guava Pure",
-                         "Mango Chunks", 
-                         "Vanilla Base"],
-                         "image" : "https://khushi110803.github.io/JS-Week11/images/ice-cream-xtra1.svg"
-       }
- ]
- }
+    "companyName": "I-scream Company Inc.",
+    "headOffice": "North Pole",
+    "established": 1987,
+    "active": true,
+    "topFlavors": [
+        {
+            "name": "chocolate Mint",
+            "calories": 300,
+            "type": "ice-cream",
+            "ingredients": [
+                "Chocolate Syrup",
+                "Peppermint Sprinkle",
+                "Vanilla Base"
+            ],
+            "image": "https://khushi110803.github.io/JS-Week11/images/chocolate-mint.svg"
+        },
+        {
+            "name": "chocolate Chip",
+            "calories": 350,
+            "type": "ice-cream",
+            "ingredients": [
+                "Chocolate Syrup",
+                "Chocolate Sprinkle",
+                "Chocolate Base"
+            ],
+            "image": "https://khushi110803.github.io/JS-Week11/images/ice-cream-xtra1.svg"
+        },
+        {
+            "name": "Strawberry Sprinkle",
+            "calories": 360,
+            "type": "ice-cream",
+            "ingredients": [
+                "Strawberry Syrup",
+                "Strawberry Chunks",
+                "Vanilla Base"
+            ],
+            "image": "https://khushi110803.github.io/JS-Week11/images/strawberry-sprinkle.svg"
+        },
+        {
+            "name": "Guava Mango",
+            "calories": 320,
+            "type": "sorbet",
+            "ingredients": [
+                "guava Pure",
+                "Mango Chunks",
+                "Vanilla Base"
+            ],
+            "image": "https://khushi110803.github.io/JS-Week11/images/ice-cream-xtra1.svg"
+        },
+        {
+            "name": "Mango Chip",
+            "calories": 270,
+            "type": "ice-cream",
+            "ingredients": [
+                "Mango Pure",
+                "Chocolate Chips",
+                "Vanilla Base"
+            ],
+            "image": "https://khushi110803.github.io/JS-Week11/images/ice-cream-xtra2.svg"
+        },
+        {
+            "name": "Peach Mango",
+            "calories": 320,
+            "type": "sorbet",
+            "ingredients": [
+                "Mango Syrup",
+                "Peach Chunks",
+                "Vanilla Base"
+            ],
+            "image": "https://khushi110803.github.io/JS-Week11/images/peach-mango.svg"
+        }
+    ]
+}
