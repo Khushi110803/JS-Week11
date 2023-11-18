@@ -6,13 +6,27 @@ body {
 	line-height: 1.4;
 	width: 960px;
 	margin: 0 auto;
+	
+
+	padding : 0;
 }
 
 /* header styles */
+header{
+	background-color: #4CAF50;
+    padding: 10px;
+    color: white;
+    text-align: center;
+
+}
+
 
 h1 {
   font-size: 4rem;
   text-align: center;
+
+
+  margin:0;
 }
 
 header p {
@@ -26,6 +40,9 @@ section {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 5rem;
+
+
+	padding : 20px;
 }
 section article {
 	border: 1px solid black;
@@ -35,8 +52,13 @@ section article {
 }
 article img {
 	display: block;
-	height: 150px;
-	width: 90px;
+	/*height: 150px;
+	width: 90px;*/
+
+
+	max-width: 100%;
+	height :auto;
+	margin-bottom: 10px;
 }
 section p {
   margin: 5px 0;
@@ -44,9 +66,27 @@ section p {
 
 section ul {
   margin-top: 0;
+
+  padding : 0;
 }
 
 h2 {
   font-size: 2.5rem;
   margin-bottom: 10px;
+
+  color:#4CAF50;
+}
+
+
+article{
+	
+		border: 1px solid #ddd;
+		padding: 15px;
+		margin: 10px;
+		width: 300px;
+		
+}
+
+p1,p2{
+	margin:0;
 }
