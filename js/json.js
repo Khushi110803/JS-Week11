@@ -48,14 +48,14 @@ const topFlavors = jsonData.topFlavors;
         const article = document.createElement("article");
         const h2 = document.createElement("h2");
         const image = document.createElement("img");
-        const p1 = document.createElement("p1");
-        const p2 = document.createElement("p2");
+        const p1 = document.createElement("p");
+        const p2 = document.createElement("p");
         const list = document.createElement("ul");
         // STEP 10f: Set the textContent property for each of the above elements (except the UL), based on the JSON content
         h2.textContent = topFlavors[i].name;
-        p1.textContent = `calories : ${topFlavors[i].calories}`;
+        p1.textContent = `Calories : ${topFlavors[i].calories}`;
         p2.textContent = `Type : ${topFlavors[i].type}`;
-        image.setAttribute("src",topFlavors[i].type);
+        image.setAttribute("src",topFlavors[i].image);
         // STEP 10g: Build a loop for the ingredients array in the JSON
         const ingredients = topFlavors[i].ingredients;
         for (let j  = 0; j  < ingredients.length ; j ++) 
@@ -77,6 +77,7 @@ const topFlavors = jsonData.topFlavors;
         article.appendChild(h2);
         article.appendChild(p1);
         article.appendChild(p2);
+        article.appendChild(list);
         article.appendChild(image);
         section.appendChild(article);
         
